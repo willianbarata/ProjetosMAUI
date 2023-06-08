@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppNumeroDaSorte", "AppNumeroDaSorte\AppNumeroDaSorte.csproj", "{95E45092-C11A-47D0-BECB-02EE5FC1F49E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App01", "App01", "{E5D1C242-E282-4CCC-86E9-F4DDC33ABB30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95E45092-C11A-47D0-BECB-02EE5FC1F49E} = {E5D1C242-E282-4CCC-86E9-F4DDC33ABB30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
